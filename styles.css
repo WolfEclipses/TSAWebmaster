@@ -1,0 +1,294 @@
+.montserrat uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parallax1 {
+  /* Home */
+  background-image: url("/Background images/Forest4.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1-2 {
+  /* Home 2 */
+  background-image: url("/Background images/Ocean1.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* Getting Started */
+  background-image: url("/Background images/Forest3.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2-2 {
+  /* Getting Started */
+  background-image: url("/Background images/Ocean5.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* Store */
+  background-image: url("/Background images/Forest8.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3-2 {
+  /* Store */
+  background-image: url("/Background images/Ocean6.png");
+
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* Financing */
+  background-image: url("/Background images/Forest2.png");
+  
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4-2 {
+  /* Financing */
+  background-image: url("/Background images/Ocean8.png");
+  
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p{
+  text-align:center;
+  font-family: Montserrat;
+  padding: 10px 100px 10px;
+  font-size:36px;
+  color: #fff;
+}
+
+body
+{
+  margin: 0;
+  min-height: 100vh;
+  background-color: #3d9bc7ff;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  z-index: 100000;
+  background-color: rgba(15, 15, 15, 0.4);
+}
+
+.FrontTitle {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  top: 40%;
+  justify-content: center;
+}
+
+.FrontTitle2 {
+  font-size: 64px;
+  background-color: rgba(15, 15, 15, 0.4);
+  border-radius: 30px;
+  padding: 6px 25px;
+  color: #fff;
+  border-width: 1000px;
+}
+
+header a img
+{
+  color: #fff;
+  align-items: left;
+  justify-content: left;
+  scale: 50%;
+  
+}
+
+header ul
+{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position:absolute;
+  
+}
+
+header ul li
+{
+  list-style: none;
+  align-items: left;
+  justify-content: left;
+  margin-left: 20px;
+  
+}
+
+header ul li a
+{
+  background-color: rgba(15, 15, 15, 0.4);
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+  background: #fff;
+  color: #3d9bc7ff;
+}
+
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+section img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.counter {
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+  color:#fff;
+}
+
+.counter1 {
+  text-align: center;
+  justify-content: center;
+  font-size: 52px;
+  padding: 0;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius:25px;
+  border: rgba(15, 15, 15, 0.4);
+}
+
+.img {
+  text-align: center;
+}
+
+.img2 {
+  border: #000000;
+  border-width: 10px;
+  scale: 100%;
+}
+
+.caption {
+  padding: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.list{
+  text-align:center;
+  font-family: Montserrat;
+  color: #000000;
+  padding: 10px 100px 10px;
+  font-size:36px;
+  list-style-type: none;
+  color: #fff;
+}
+
+hr.solid {
+  border-top: 3px solid #fff;
+  width: 60%;
+}
+
+footer {
+  height: 70px;
+  background-image: linear-gradient(#3d9bc7ff,#1d1d1d64);
+}
+
+/* 2DA8E3FF*/

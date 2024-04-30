@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<xml version="1.0" encoding="UTF-8"?>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>TSA Website</title>
+    </head>
+    <body>
+        <header>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="starting.html">Getting Started</a></li>
+            <li><a href="financial.html">Financing</a></li>
+            <li><a href="sources.html">Sources</a></li>
+          </ul>
+        </header>
+        
+        <section>
+            <div class="parallax1">
+              <div class="FrontTitle">
+                <span class="FrontTitle2">
+                  Green Housing
+                </span>
+              </div>
+            </div>
+        </section>
+        <h1 class="counter1">Climate Clock</h1>
+        <h1 id="demo" class="counter"></h1>
+        
+
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Jul 21, 2029 12:00:00").getTime();
+          
+          // Update the count down every 1 second
+          var x = setInterval(function() {
+          
+            // Get today's date and time
+            var now = new Date().getTime();
+              
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+              
+            // Time calculations for days, hours, minutes and seconds
+            var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
+            var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = years + " Years " + days + " Days " + hours + "h:" + minutes + "m:" + seconds + "s";
+              
+            // If the count down is over, write some text 
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+        </script>
+        <section>
+          <div class="parallax1-2">
+            <div class="FrontTitle">
+              <span class="FrontTitle2">
+                That's not much time left...
+              </span>
+            </div>
+          </div>
+      </section>
+      <div class="img">
+        <H1 class="counter1">Global Warming</H1>
+        <p> Global warming has become exponentially worse over the past 45 years. There are ways to combat this, however. From sourcing products more sustainably to reducing carbon footprints, anyone can aid in the fight against global warming.  </p>
+        <img src="/Background Images/homeGraph.png" alt="Global Average Surface Temperature" class="img2" width="800px" height="650px">
+        <figcaption class="caption">Above: In the last 45 or so years, climate change has become increasingly more severe. (source: climate.gov)</figcaption>
+        <p> One of the primary ways to increase sustainability is through the use of green energy. Green energy (also known as low-carbon energy) is derived from renewable resources that don’t have as negative of an impact on the environment as carbon fuels. By switching over to primarily using green energy, it would be feasible to curb carbon emissions, and thus, at the least, buy more time to deal with climate change and undergo a complete green transition. </p>
+      </div>
+      
+    </body>
+  <footer>
+    <span></span>
+  </footer>
+</html>
