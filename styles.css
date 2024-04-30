@@ -9,10 +9,10 @@
   /* Home */
   background-image: url("/Background images/Forest4.png");
 
-  min-height: 800px;
   width: 100%;
   height: 100%;
   padding: 0;
+
 
   background-attachment: fixed;
   background-position: center;
@@ -24,7 +24,6 @@
   /* Home 2 */
   background-image: url("/Background images/Ocean1.png");
 
-  min-height: 800px;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -39,7 +38,6 @@
   /* Getting Started */
   background-image: url("/Background images/Forest3.png");
 
-  min-height: 800px;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -54,7 +52,6 @@
   /* Getting Started */
   background-image: url("/Background images/Ocean5.png");
 
-  min-height: 800px;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -69,7 +66,6 @@
   /* Store */
   background-image: url("/Background images/Forest8.png");
 
-  min-height: 800px;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -84,7 +80,7 @@
   /* Store */
   background-image: url("/Background images/Ocean6.png");
 
-  min-height: 800px;
+
   width: 100%;
   height: 100%;
   padding: 0;
@@ -99,7 +95,7 @@
   /* Financing */
   background-image: url("/Background images/Forest2.png");
   
-  min-height: 800px;
+
   width: 100%;
   height: 100%;
   padding: 0;
@@ -114,7 +110,7 @@
   /* Financing */
   background-image: url("/Background images/Ocean8.png");
   
-  min-height: 800px;
+
   width: 100%;
   height: 100%;
   padding: 0;
@@ -178,7 +174,7 @@ header a img
 {
   color: #fff;
   align-items: left;
-  justify-content: left;
+  justify-content: center;
   scale: 50%;
   
 }
@@ -186,19 +182,18 @@ header a img
 header ul
 {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: left;
   position:absolute;
-  
+  height: auto;
 }
 
 header ul li
 {
   list-style: none;
   align-items: left;
-  justify-content: left;
+  justify-content: center;
   margin-left: 20px;
-  
 }
 
 header ul li a
@@ -209,6 +204,7 @@ header ul li a
   color: #fff;
   border-radius: 20px;
   font-size: 2vh;
+  justify-content: center;
 }
 
 header ul li a:hover,
